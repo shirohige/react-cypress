@@ -1,5 +1,7 @@
 language: node_js
 dist: trusty
+node_js:
+  - "12"
 cache:
   - npm
   - yarn
