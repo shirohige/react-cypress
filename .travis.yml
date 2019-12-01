@@ -17,5 +17,8 @@ script:
 
 addons:
   artifacts:
+    bucket: "shirohige-travis-ci-artifacts"
     paths:
-      - ./coverage
+      - ./coverage/*
+      - ./cypress/screenshots/*
+      - ./cypress/videos/*
