@@ -5,5 +5,6 @@ cache:
   - yarn
 install:
   - yarn
+  - npm install cypress --save-dev
 script:
   - cypress run
