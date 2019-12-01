@@ -8,5 +8,9 @@ cache:
 install:
   - yarn
   - npm install cypress --save-dev
+
+before_script:
+  - npm start -- --silent &
+
 script:
   - cypress run
