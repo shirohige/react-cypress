@@ -1,0 +1,6 @@
+{
+  "extension": [".js", ".jsx"],
+  "exclude": [
+      "src/serviceWorker.js"
+    ]
+}
